@@ -12,14 +12,25 @@
         <div class="hl"></div>
         <br>
         <div class="data_display">
-        <% for(let i=0;i<data.length;i++){ %>
-            <h3>User <%- i+1 %>  </h3>
-            <h4>Name : <%- data[i].name %></h4> 
-            <h4>College : <%- data[i].college %></h4>
-            <h4>Phone : <%- data[i].phone %></h4> 
-            <h4>Mail : <%- data[i].email %></h4> 
+            <table> 
+                <tr>
+            <th><h3>Sl. No   </h3></th>
+            <th><h3>Name  </h3></th>
+            <th><h3>College</h3></th>
+            <th><h3>Phone  </h3></th>
+            <th><h3>Mail  </h3></th>
+        </tr>
+        <% for(let i=0;i<data.length;i++){ %>    
+        <tr>
+            <td><h4><%- i+1 %></h4></td> 
+            <td><h4><%- data[i].name %></h4> </td>
+            <td><h4><%- data[i].college %></h4></td>
+            <td><h4><%- data[i].phone %></h4> </td>
+            <td><%- data[i].email %></h4> </td>
+        </tr>
             <br>
             <% } %>
+        </table>
         </div>
 
 </body>

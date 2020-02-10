@@ -1,0 +1,49 @@
+
+[
+    {
+    "college" : "soe",
+    "email" : "ajmessial10@gmail.com",
+    "name" : "Ajal",
+    "phone" : 9128692836,
+    "sem" : "Sem 1"
+  
+},
+
+{
+    "college" : "soe",
+    "email" : "sujith@gmail.com",
+    "name": "Sujith",
+    "phone" : 9188692837,
+    "sem" : "Sem 1"
+
+},
+
+{
+    "college" : "soe",
+    "email" : "aswin@gmail.com",
+    "name" : "aswin",
+    "phone" : 9188623836,
+    "sem" : "Sem 1"
+  
+},
+
+{
+    "college" : "soe",
+    "email" : "unni@gmail.com",
+  
+    "name" : "unni",
+    "phone" : 9188562836,
+    "sem" : "Sem 1"
+    
+},
+
+{
+    "college" : "soe",
+    "email" : "gokul@gmail.com",
+
+    "name" : "gokul",
+    "phone" : 9188623836,
+    "sem" : "Sem 1"
+
+}
+]

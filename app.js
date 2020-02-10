@@ -6,9 +6,7 @@ const mongoose = require('mongoose');
 const data_routes = require("./routes/data.route");
 
 // Establish a database connection
-mongoose.connect('mongodb://localhost/dhishna', {
-    useMongoClient : true,
-});
+mongoose.connect('mongodb://localhost/dhishna');
 
 //Create server
 const server = express();

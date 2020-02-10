@@ -5,9 +5,7 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 
 // make a connection
-mongoose.connect('mongodb://localhost/dhishna', {
-    useMongoClient : true,
-});
+mongoose.connect('mongodb://localhost/dhishna');
  
 
 fs.readFile('users.json',(err,data) => {

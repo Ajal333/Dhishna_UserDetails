@@ -2,9 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 let transactionSchema = new Schema ({
-    name : {type : String},
-    college : {type : String},
-    email : {type : String},
+    payment_id : {type : String},
+    payment_for : {type : String},
+    status : {type : String},
+    buyer : {type: String}
 });
 
 module.exports = mongoose.model('transactions',transactionSchema);

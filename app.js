@@ -3,7 +3,7 @@ const ejs = require('ejs');
 const mongoose = require('mongoose');
 
 //setting routes
-const data_routes = require("./routes/data.route");
+const data_routes = require("./routes/manager.route");
 
 // Establish a database connection
 mongoose.connect('mongodb://localhost/dhishna');
@@ -13,7 +13,7 @@ const server = express();
 
 //Use assets
 server.use("/assets/css", express.static(__dirname + "/assets/css"));
-server.use("/view",data_routes);
+server.use("/manager",data_routes);
 
 //Setting view engine
 server.set("view engine","ejs");

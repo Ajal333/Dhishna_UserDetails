@@ -7,9 +7,9 @@ exports.data_show =  (req,res) => {
                     else {
                         let mails = [];
                         for(let i=0;i<docs.length;i++) {
-                            mails[i] = docs[i].email;
+                            mails[i] = docs[i].buyer;
                         }
-                UD.find({email : {$in : mails}},(err,data) => {
+                UD.find({ username: {$in : mails}},(err,data) => {
                     if(err) console.log("Error");
                     else {
                     console.log(data);
